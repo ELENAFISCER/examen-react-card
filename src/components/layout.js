@@ -1,14 +1,13 @@
 import React from "react";
-
-const Layout = ({ children }) => {
+import { Link } from "gatsby";
+const Layout = () => {
   return (
-    <div className="layout">
-      <header className="header">
-        <h1>Mi Card Gatsby</h1>
-      </header>
-      <main>{children}</main>
-
-    </div>
+    <>
+    <ul>
+      <li><Link to="/"> Inicio</Link></li>
+      <li><Link to="/contacto">Contacto</Link></li>
+    </ul>
+    </>
   );
 };
 

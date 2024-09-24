@@ -11,7 +11,7 @@ const IndexPage = ({ data }) => {
   });
   return (
     <>
-      <Layout />
+      <Layout/>
       <div className="content">
         <h1 className="titulo-principal">Página de inicio</h1>
         <div className="card-container">
